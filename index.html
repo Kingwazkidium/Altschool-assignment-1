@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <title>Application Form</title>
+</head>
+<body>
+  <form class="box">
+    <h1>Application Form</h1>
+    <p>Fill in your details</p>
+    <div class="form-class">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required placeholder="First Name">
+    </div>
+    <div class="form-class">
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required placeholder="Last Name">
+    </div>
+
+    <div class="form-class">
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+    </div>
+
+    <div class="form-class">
+    <label for="dob">Date of Birth:</label>
+    <input type="text" id="dob" name="dob" placeholder="mm/dd/yyyy" required>
+    </div>
+
+    <div class="form-class">
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required placeholder="Enter email address">
+    </div>
+
+    <div class="form-class">
+    <label for="educationLevel">Education Level:</label>
+    <select id="educationLevel" name="educationLevel" required>
+      <option value="Bsc">Bsc</option>
+      <option value="Msc">Msc</option>
+      <option value="Diploma">Diploma</option>
+      <option value="other">Other</option>
+    </select>
+    </div>
+
+    <div class="form-class">
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" required>
+    </div>
+
+    <div class="form-class">
+    <label for="residence">State/City of Residence:</label>
+    <input type="text" id="residence" name="residence" required>
+    </div>
+
+    <div class="form-class">
+    <label for="employmentStatus">Employment Status:</label>
+    <select id="employmentStatus" name="employmentStatus" required>
+      <option value="employed">Employed</option>
+      <option value="unemployed">Unemployed</option>
+      <option value="student">Student</option>
+      <option value="other">Other</option>
+    </select>
+    </div>
+
+    <div class="form-class">
+      <label for="phonenumber">Phone Number:</label>
+      <input type="number" id="phonenumber" name="1234567890" required>
+    </div>
+
+    <div class="form-class">
+    <label for="school">Choose School:</label>
+    <select id="school" name="school" required>
+      <option value="school1">School of Creative Economic</option>
+      <option value="school2">School of Business</option>
+    </select>
+    </div>
+
+    <div class="form-class">
+    <label for="course">Choose Course of Study:</label>
+    <select id="course" name="course" required>
+      <option value="course1">Navigating the Music Business in Africa: Afrobeat case study</option>
+      <option value="course2">Content Mastery for African Creators</option>
+    </select>
+    </div>
+
+    <div class="form-class">
+    <label for="howDidYouHear">How did you hear about us?</label>
+    <select id="howDidYouHear" name="howDidYouHear" required>
+      <option value="website">Website</option>
+      <option value="socialMedia">Social Media</option>
+      <option value="referral">Referral</option>
+      <option value="event">Event</option>
+      <option value="other">Other</option>
+    </select>
+    </div>
+
+    <div class="form-class">
+    <label for="discountCode">Scholarship/Discount Code (optional):</label>
+    <input type="text" id="discountCode" name="discountCode">
+    </div>
+
+    <p style="text-align: center;" for="agreeTerms">By clicking continue, I agree to <span style="color: rgb(106, 111, 245);">Terms of Use</span> and acknowledge that I have read the <span style="color: rgb(106, 111, 245);">Privacy Policy</span>.</p>
+
+    <button type="submit">Proceed</button>
+
+    <p style="text-align: center;">Already have an account? <span style="color: rgb(106, 111, 245);">Sign in</span> </p>
+  </form>
+
+  
+</body>
+</html>
+
+
+
+
